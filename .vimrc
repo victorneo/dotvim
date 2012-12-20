@@ -28,7 +28,7 @@ map <C-Left> gT
 map <C-Right> gt
 
 " Color scheme
-color twilight256
+color desert
 
 let NERDTreeIgnore = ['\.pyc$']
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.egg,*.tar.gz,*.tar,*.gz
