@@ -13,7 +13,7 @@ set listchars+=trail:.
 set listchars+=extends:>
 set listchars+=precedes:<
 set nowrap
-filetype plugin on
+filetype plugin indent on
 fixdel
 
 syntax on
