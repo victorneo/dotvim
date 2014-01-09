@@ -6,12 +6,12 @@ set smarttab
 set autoindent
 set backspace=indent,eol,start
 set number
-set list
-set listchars=""
-set listchars=tab:\ \
-set listchars+=trail:.
-set listchars+=extends:>
-set listchars+=precedes:<
+"set list
+"set listchars=""
+"set listchars=tab:\ \
+"set listchars+=trail:.
+"set listchars+=extends:>
+"set listchars+=precedes:<
 set nowrap
 filetype plugin indent on
 fixdel
