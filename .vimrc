@@ -2,7 +2,7 @@ set t_Co=256
 set guioptions=aAce
 set mouse=a
 set smarttab
-set expandtab
+"set expandtab
 set autoindent
 set backspace=indent,eol,start
 set number
