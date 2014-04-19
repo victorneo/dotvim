@@ -2,7 +2,7 @@ set t_Co=256
 set guioptions=aAce
 set mouse=a
 set smarttab
-"set expandtab
+set expandtab
 set autoindent
 set backspace=indent,eol,start
 set number
@@ -29,6 +29,9 @@ map <C-Right> gt
 
 " Color scheme
 color desert
+highlight Pmenu ctermbg=238 gui=bold
+
+au BufRead,BufNewFile *.md set filetype=markdown
 
 let NERDTreeIgnore = ['\.pyc$']
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.egg,*.tar.gz,*.tar,*.gz
