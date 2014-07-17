@@ -33,7 +33,7 @@ highlight Pmenu ctermbg=238 gui=bold
 
 au BufRead,BufNewFile *.md set filetype=markdown
 
-let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = ['\.pyc$', '^__pycache__$']
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.egg,*.tar.gz,*.tar,*.gz
 
 runtime bundle/vim-pathogen/autoload/pathogen.vim
