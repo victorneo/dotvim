@@ -22,8 +22,8 @@ syntax on
 map <F2> :NERDTreeToggle<CR>
 map <F3> :TaskList
 set pastetoggle=<F12>
-"nnoremap <C-Left> :tabprevious<CR>
-"nnoremap <C-Right> :tabnext<CR>
+" nnoremap <C-Left> :tabprevious<CR>
+" nnoremap <C-Right> :tabnext<CR>
 map <C-Left> gT
 map <C-Right> gt
 
