@@ -28,7 +28,8 @@ map <C-Left> gT
 map <C-Right> gt
 
 " Color scheme
-color desert
+" color desert
+colorscheme benokai
 highlight Pmenu ctermbg=238 gui=bold
 
 au BufRead,BufNewFile *.md set filetype=markdown
